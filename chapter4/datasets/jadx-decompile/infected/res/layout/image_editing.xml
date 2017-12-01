@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/lib/com.google.ads" ads:background="@drawable/background" ads:layout_width="match_parent" ads:layout_height="match_parent"
+    <RelativeLayout ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_above="@id/viewLayout" ads:layout_alignParentTop="true" ads:layout_centerHorizontal="true" ads:layout_centerVertical="true">
+        <ImageView ads:id="@+id/bitmapView" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="horizontal" ads:id="@+id/button_layout" ads:background="#ff000066" ads:paddingTop="5dp" ads:paddingBottom="5dp" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true">
+        <ImageButton ads:id="@+id/buttonGray" ads:background="0x0" ads:paddingLeft="20dp" ads:paddingRight="20dp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:src="@drawable/gray_pencil" />
+        <ImageButton ads:id="@+id/buttonColor" ads:background="0x0" ads:paddingLeft="20dp" ads:paddingRight="20dp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:src="@drawable/color_pencil" />
+        <ImageButton ads:id="@+id/buttonSave" ads:background="0x0" ads:paddingLeft="20dp" ads:paddingRight="20dp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:src="@drawable/save" />
+        <ImageButton ads:id="@+id/buttonShare" ads:background="0x0" ads:paddingLeft="20dp" ads:paddingRight="20dp" ads:layout_width="UNKNOWN_DATA_0x1" ads:layout_height="UNKNOWN_DATA_0x1" />
+    </LinearLayout>
+    <com.android.view.ViewLayout ads:id="@id/viewLayout" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_above="@+id/button_layout" />
+</RelativeLayout>

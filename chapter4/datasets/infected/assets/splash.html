@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link href="splash.css" rel="stylesheet" type="text/css">
+
+
+<script>
+	//按钮响应
+	function go(e) {
+		
+		content.startintent(e.getAttribute("adId"));
+	}
+
+	//获取节点属性
+	function getnodevalue(e, name) {
+		var value = "";
+		var e1 = e.getElementsByTagName(name)
+		if (e1 != null && e1.length > 0) {
+
+			if (e1[0].firstChild != null) {
+				value = e1[0].firstChild.nodeValue;
+			}
+
+		}
+		return value;
+
+	}
+
+	//循环显示
+	function showAd()
+	{
+		//获取时间间隔
+		var interval = content.Getinterval() * 1000;
+		
+		var img = content.GetDownInfoByFlag("imgFlie");
+		var downFlag = content.GetDownInfoByFlag("imgFlag");
+		var adId = content.GetDownInfoByFlag("adID");
+		
+		console.log("jwd 展示正是广告  flag= " + downFlag);
+		console.log("jwd 展示正是广告  img= " + img);
+		console.log("jwd 展示正是广告  adId= " + adId);
+		
+		if (downFlag == '3') {
+
+			var ifFileExists = content.fileExist(img);
+
+			if (ifFileExists) {
+
+				if (adId != document.getElementById("layout").getAttribute(
+						"adId")) {
+					document.getElementById("layout").setAttribute("adId",
+							adId);
+					document.getElementById("splash").src = img;
+					document.getElementById("adview").setAttribute("style",
+							" ");
+				}
+			} 
+		}
+		
+		setTimeout("getAdData()", interval);
+	}
+	
+	function getAdData()
+	{
+		content.DownAdImg();
+		content.UpdateShowRecord();
+		showAd();
+	}
+
+	onload = function() {
+		httpcom = new XMLHttpRequest();
+		//延时30秒展示广告
+		setTimeout("getAdData()", 1 * 1000);
+	}
+</script>
+
+
+
+</head>
+<body id="adview" bgcolor="#000000" style="display: none">
+	<div id="layout" href="" bgimg="" adId="0"
+		style="filter: alpha(opacity =   70);" ontouchstart="go(this)">
+		<img id="splash" src="" />
+		<!-- <img id="logo" src="" />
+		<div id="text"></div> -->
+	</div>
+</body>
+</html>

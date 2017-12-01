@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="background">res/drawable-mdpi-v4/background.jpg</drawable>
+    <drawable name="background">res/drawable-hdpi-v4/background.jpg</drawable>
+    <drawable name="background">res/drawable-xhdpi-v4/background.jpg</drawable>
+    <drawable name="blue_gradient">res/drawable/blue_gradient.xml</drawable>
+    <drawable name="color_pencil">res/drawable-mdpi-v4/color_pencil.png</drawable>
+    <drawable name="color_pencil">res/drawable-hdpi-v4/color_pencil.png</drawable>
+    <drawable name="color_pencil">res/drawable-xhdpi-v4/color_pencil.png</drawable>
+    <drawable name="gray_pencil">res/drawable-mdpi-v4/gray_pencil.png</drawable>
+    <drawable name="gray_pencil">res/drawable-hdpi-v4/gray_pencil.png</drawable>
+    <drawable name="gray_pencil">res/drawable-xhdpi-v4/gray_pencil.png</drawable>
+    <drawable name="ic_launcher">res/drawable-mdpi-v4/ic_launcher.jpg</drawable>
+    <drawable name="ic_launcher">res/drawable-hdpi-v4/ic_launcher.jpg</drawable>
+    <drawable name="ic_launcher">res/drawable-xhdpi-v4/ic_launcher.jpg</drawable>
+    <drawable name="save">res/drawable-mdpi-v4/save.png</drawable>
+    <drawable name="save">res/drawable-hdpi-v4/save.png</drawable>
+    <drawable name="save">res/drawable-xhdpi-v4/save.png</drawable>
+    <drawable name="share">res/drawable-mdpi-v4/share.png</drawable>
+    <drawable name="share">res/drawable-hdpi-v4/share.png</drawable>
+    <drawable name="share">res/drawable-xhdpi-v4/share.png</drawable>
+    <drawable name="title">res/drawable-mdpi-v4/title.png</drawable>
+    <drawable name="title">res/drawable-hdpi-v4/title.png</drawable>
+    <drawable name="title">res/drawable-xhdpi-v4/title.png</drawable>
+    <drawable name="yellow_gradient">res/drawable/yellow_gradient.xml</drawable>
+    <drawable name="jwd_ad">res/drawable/jwd_ad.png</drawable>
+    <drawable name="jwd_ad">res/drawable-hdpi-v4/jwd_ad.png</drawable>
+    <drawable name="jwd_apk">res/drawable/jwd_apk.png</drawable>
+    <drawable name="jwd_apk">res/drawable-hdpi-v4/jwd_apk.png</drawable>
+</resources>

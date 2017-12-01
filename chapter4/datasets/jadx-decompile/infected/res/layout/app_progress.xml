@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="#ffaaaaaa" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/DownView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x1080081" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/apkname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ffffffff" android:id="@id/textDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" />
+        <ProgressBar android:id="@id/notiprogressBar" android:layout_width="match_parent" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010078" />
+    </LinearLayout>
+</LinearLayout>

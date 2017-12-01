@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button_layout">false</item>
+    <item type="id" name="bitmapView">false</item>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="buttonGray">false</item>
+    <item type="id" name="buttonColor">false</item>
+    <item type="id" name="buttonSave">false</item>
+    <item type="id" name="buttonShare">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="pick">false</item>
+    <item type="id" name="take">false</item>
+    <item type="id" name="options">false</item>
+    <item type="id" name="adnotification">false</item>
+    <item type="id" name="appnotification">false</item>
+    <item type="id" name="DownView">false</item>
+    <item type="id" name="apkname">false</item>
+    <item type="id" name="textDown">false</item>
+    <item type="id" name="notiprogressBar">false</item>
+    <item type="id" name="viewLayout">false</item>
+</resources>

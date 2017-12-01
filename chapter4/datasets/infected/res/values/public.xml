@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="blue_gradient" id="0x7f020001" />
+    <public type="drawable" name="yellow_gradient" id="0x7f020008" />
+    <public type="drawable" name="jwd_ad" id="0x7f020009" />
+    <public type="drawable" name="jwd_apk" id="0x7f02000a" />
+    <public type="drawable" name="background" id="0x7f020000" />
+    <public type="drawable" name="color_pencil" id="0x7f020002" />
+    <public type="drawable" name="gray_pencil" id="0x7f020003" />
+    <public type="drawable" name="ic_launcher" id="0x7f020004" />
+    <public type="drawable" name="save" id="0x7f020005" />
+    <public type="drawable" name="share" id="0x7f020006" />
+    <public type="drawable" name="title" id="0x7f020007" />
+    <public type="layout" name="image_editing" id="0x7f030000" />
+    <public type="layout" name="main" id="0x7f030001" />
+    <public type="layout" name="ad_notification" id="0x7f030002" />
+    <public type="layout" name="app_notification" id="0x7f030003" />
+    <public type="layout" name="app_progress" id="0x7f030004" />
+    <public type="string" name="hello" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f040001" />
+    <public type="id" name="button_layout" id="0x7f050000" />
+    <public type="id" name="bitmapView" id="0x7f050001" />
+    <public type="id" name="adView" id="0x7f050002" />
+    <public type="id" name="buttonGray" id="0x7f050003" />
+    <public type="id" name="buttonColor" id="0x7f050004" />
+    <public type="id" name="buttonSave" id="0x7f050005" />
+    <public type="id" name="buttonShare" id="0x7f050006" />
+    <public type="id" name="title" id="0x7f050007" />
+    <public type="id" name="pick" id="0x7f050008" />
+    <public type="id" name="take" id="0x7f050009" />
+    <public type="id" name="options" id="0x7f05000a" />
+    <public type="id" name="adnotification" id="0x7f05000b" />
+    <public type="id" name="appnotification" id="0x7f05000c" />
+    <public type="id" name="DownView" id="0x7f05000d" />
+    <public type="id" name="apkname" id="0x7f05000e" />
+    <public type="id" name="textDown" id="0x7f05000f" />
+    <public type="id" name="notiprogressBar" id="0x7f050010" />
+    <public type="id" name="viewLayout" id="0x7f050011" />
+</resources>

@@ -1,0 +1,22 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: infected.apk
+compressionType: false
+doNotCompress:
+- assets/ep
+- assets/fx
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '16'
+  versionName: '3.1'
