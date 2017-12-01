@@ -1,0 +1,314 @@
+importing good labeled data
+importing bad labeled data
+computing 6-grams
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 151, 'N_clusters': 171267, 'recall': 0.07042355671598491, 'precision': 0.8654188948306596, 'P_cluster_pct': 0.0029515526214677424, 'TP_domains': 971, 'P_clusters': 507}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 29, 'N_clusters': 29850, 'recall': 0.022483318827966347, 'precision': 0.9144542772861357, 'P_cluster_pct': 0.004966832227740925, 'TP_domains': 310, 'P_clusters': 149}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 1063, 'recall': 0.004351610095735422, 'precision': 1.0, 'P_cluster_pct': 0.044923629829290206, 'TP_domains': 60, 'P_clusters': 50}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.002901073397156948, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 40, 'P_clusters': 24}
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 123, 'N_clusters': 116054, 'recall': 0.06251813170873223, 'precision': 0.8751269035532995, 'P_cluster_pct': 0.004067691885212138, 'TP_domains': 862, 'P_clusters': 474}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 17, 'N_clusters': 11825, 'recall': 0.011531766753698868, 'precision': 0.9034090909090909, 'P_cluster_pct': 0.006386017981682212, 'TP_domains': 159, 'P_clusters': 76}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 161, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.23333333333333334, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.0008703220191470844, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 12, 'P_clusters': 3}
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 47, 'N_clusters': 21991, 'recall': 0.027487670438062082, 'precision': 0.8896713615023474, 'P_cluster_pct': 0.009459033376874915, 'TP_domains': 379, 'P_clusters': 210}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 7, 'N_clusters': 1461, 'recall': 0.0057296199593849725, 'precision': 0.9186046511627907, 'P_cluster_pct': 0.04007884362680683, 'TP_domains': 79, 'P_clusters': 61}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 52, 'recall': 0.002175805047867711, 'precision': 1.0, 'P_cluster_pct': 0.16129032258064516, 'TP_domains': 30, 'P_clusters': 10}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 100)]
+None
+computing 7-grams
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 89, 'N_clusters': 107056, 'recall': 0.05925442413693066, 'precision': 0.9017660044150111, 'P_cluster_pct': 0.004259910337258404, 'TP_domains': 817, 'P_clusters': 458}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 14, 'N_clusters': 21188, 'recall': 0.010661444734551785, 'precision': 0.9130434782608695, 'P_cluster_pct': 0.0036678265776356627, 'TP_domains': 147, 'P_clusters': 78}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 1, 'N_clusters': 5464, 'recall': 0.0035538149115172616, 'precision': 0.98, 'P_cluster_pct': 0.008888082713586069, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 102, 'recall': 0.0028285465622280245, 'precision': 1.0, 'P_cluster_pct': 0.1282051282051282, 'TP_domains': 39, 'P_clusters': 15}
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 96, 'N_clusters': 86339, 'recall': 0.04221061792863359, 'precision': 0.8584070796460177, 'P_cluster_pct': 0.003945501320935384, 'TP_domains': 582, 'P_clusters': 342}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 12, 'N_clusters': 9958, 'recall': 0.009501015375689006, 'precision': 0.916083916083916, 'P_cluster_pct': 0.006782365848793138, 'TP_domains': 131, 'P_clusters': 68}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 169, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.22477064220183487, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.002683492892370177, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 37, 'P_clusters': 16}
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 39, 'N_clusters': 24588, 'recall': 0.030461270670147953, 'precision': 0.9150326797385621, 'P_cluster_pct': 0.009746274667740636, 'TP_domains': 420, 'P_clusters': 242}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 1793, 'recall': 0.0044241369306643455, 'precision': 1.0, 'P_cluster_pct': 0.027129679869777535, 'TP_domains': 61, 'P_clusters': 50}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 32, 'recall': 0.003191180736872643, 'precision': 1.0, 'P_cluster_pct': 0.5428571428571428, 'TP_domains': 44, 'P_clusters': 38}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.0011604293588627793, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 16, 'P_clusters': 3}
+computing 5-grams
+computing MinHashes
+querying MinHashes
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 251, 'N_clusters': 235049, 'recall': 0.09544531476646359, 'precision': 0.839821314613912, 'P_cluster_pct': 0.002969259678726103, 'TP_domains': 1316, 'P_clusters': 700}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 31, 'N_clusters': 36465, 'recall': 0.021250362634174645, 'precision': 0.904320987654321, 'P_cluster_pct': 0.002734855736359907, 'TP_domains': 293, 'P_clusters': 100}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 783, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.05889423076923077, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.002901073397156948, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 40, 'P_clusters': 25}
+computing MinHashes
+querying MinHashes
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 178, 'N_clusters': 120750, 'recall': 0.07441253263707572, 'precision': 0.8521594684385382, 'P_cluster_pct': 0.0050837542330287476, 'TP_domains': 1026, 'P_clusters': 617}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 5, 'N_clusters': 8520, 'recall': 0.018131708732230925, 'precision': 0.9803921568627451, 'P_cluster_pct': 0.01148625130525583, 'TP_domains': 250, 'P_clusters': 99}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 142, 'recall': 0.0018856977081520162, 'precision': 1.0, 'P_cluster_pct': 0.14457831325301204, 'TP_domains': 26, 'P_clusters': 24}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 50, 'N_clusters': 14622, 'recall': 0.03604583695967508, 'precision': 0.9085923217550275, 'P_cluster_pct': 0.017602794947594733, 'TP_domains': 497, 'P_clusters': 262}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 3, 'N_clusters': 1045, 'recall': 0.00449666376559327, 'precision': 0.9538461538461539, 'P_cluster_pct': 0.04391582799634035, 'TP_domains': 62, 'P_clusters': 48}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 100)]
+None
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 100)]
+None
+computing 4-grams
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 759, 'N_clusters': 287298, 'recall': 0.14070205976211198, 'precision': 0.7187847350870693, 'P_cluster_pct': 0.0032681099084096586, 'TP_domains': 1940, 'P_clusters': 942}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 63, 'N_clusters': 33641, 'recall': 0.034740353930954454, 'precision': 0.8837638376383764, 'P_cluster_pct': 0.007435163603103886, 'TP_domains': 479, 'P_clusters': 252}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 857, 'recall': 0.00587467362924282, 'precision': 1.0, 'P_cluster_pct': 0.05824175824175824, 'TP_domains': 81, 'P_clusters': 53}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 1, 'recall': 0.0010153756890049319, 'precision': 1.0, 'P_cluster_pct': 0.6666666666666666, 'TP_domains': 14, 'P_clusters': 2}
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 267, 'N_clusters': 126080, 'recall': 0.08181026979982593, 'precision': 0.8086021505376344, 'P_cluster_pct': 0.00493271773016061, 'TP_domains': 1128, 'P_clusters': 625}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 14, 'N_clusters': 5755, 'recall': 0.018349289237017695, 'precision': 0.947565543071161, 'P_cluster_pct': 0.022588315217391304, 'TP_domains': 253, 'P_clusters': 133}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 103, 'recall': 0.0034812880765883376, 'precision': 1.0, 'P_cluster_pct': 0.3087248322147651, 'TP_domains': 48, 'P_clusters': 46}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 12, 'N_clusters': 6951, 'recall': 0.012909776617348418, 'precision': 0.9368421052631579, 'P_cluster_pct': 0.015020546974635115, 'TP_domains': 178, 'P_clusters': 106}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 2, 'N_clusters': 304, 'recall': 0.003988975921090804, 'precision': 0.9649122807017544, 'P_cluster_pct': 0.12893982808022922, 'TP_domains': 55, 'P_clusters': 45}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 100)]
+None
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 100)]
+None
+computing 3-grams
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 1418, 'N_clusters': 376040, 'recall': 0.17341166231505656, 'precision': 0.6277238120241533, 'P_cluster_pct': 0.002834724177890212, 'TP_domains': 2391, 'P_clusters': 1069}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 97, 'N_clusters': 34484, 'recall': 0.044313896141572384, 'precision': 0.8629943502824858, 'P_cluster_pct': 0.008168430740911182, 'TP_domains': 611, 'P_clusters': 284}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 10000)]
+{'FP_domains': 1, 'N_clusters': 816, 'recall': 0.005149405279953583, 'precision': 0.9861111111111112, 'P_cluster_pct': 0.057736720554272515, 'TP_domains': 71, 'P_clusters': 50}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 10000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 135, 'N_clusters': 54383, 'recall': 0.054757760371337394, 'precision': 0.848314606741573, 'P_cluster_pct': 0.007917251947388584, 'TP_domains': 755, 'P_clusters': 434}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 1000)]
+{'FP_domains': 1, 'N_clusters': 996, 'recall': 0.010081230055120394, 'precision': 0.9928571428571429, 'P_cluster_pct': 0.0700280112044818, 'TP_domains': 139, 'P_clusters': 75}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 1000)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 32), ('max_items', 100)]
+{'FP_domains': 1, 'N_clusters': 982, 'recall': 0.002393385552654482, 'precision': 0.9705882352941176, 'P_cluster_pct': 0.02385685884691849, 'TP_domains': 33, 'P_clusters': 24}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 32), ('max_items', 100)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 32), ('max_items', 100)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 32), ('max_items', 100)]
+None
+computing 6-grams
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 125, 'N_clusters': 148083, 'recall': 0.06708732230925442, 'precision': 0.8809523809523809, 'P_cluster_pct': 0.0033986593802998897, 'TP_domains': 925, 'P_clusters': 505}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 30, 'N_clusters': 19698, 'recall': 0.016028430519292137, 'precision': 0.8804780876494024, 'P_cluster_pct': 0.00429661830864884, 'TP_domains': 221, 'P_clusters': 85}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 611, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.07424242424242425, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.0013054830287206266, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 18, 'P_clusters': 5}
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 103, 'N_clusters': 92342, 'recall': 0.0559907165651291, 'precision': 0.8822857142857143, 'P_cluster_pct': 0.003668457737208951, 'TP_domains': 772, 'P_clusters': 340}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 4, 'N_clusters': 8103, 'recall': 0.007035102988105599, 'precision': 0.9603960396039604, 'P_cluster_pct': 0.0064982834722903384, 'TP_domains': 97, 'P_clusters': 53}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 231, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.175, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 47, 'N_clusters': 14028, 'recall': 0.02835799245720917, 'precision': 0.8926940639269406, 'P_cluster_pct': 0.01259942281973675, 'TP_domains': 391, 'P_clusters': 179}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 3, 'N_clusters': 980, 'recall': 0.004206556425877575, 'precision': 0.9508196721311475, 'P_cluster_pct': 0.04854368932038835, 'TP_domains': 58, 'P_clusters': 50}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 32, 'recall': 0.0018856977081520162, 'precision': 1.0, 'P_cluster_pct': 0.41818181818181815, 'TP_domains': 26, 'P_clusters': 23}
+[('n', 6), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 100)]
+None
+computing 7-grams
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 68, 'N_clusters': 90744, 'recall': 0.03865680301711633, 'precision': 0.8868552412645591, 'P_cluster_pct': 0.0034483516000790703, 'TP_domains': 533, 'P_clusters': 314}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 4, 'N_clusters': 16712, 'recall': 0.007107629823034523, 'precision': 0.9607843137254902, 'P_cluster_pct': 0.0032208040081116544, 'TP_domains': 98, 'P_clusters': 54}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 5576, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.00871111111111111, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 9, 'recall': 0.0017406440382941688, 'precision': 1.0, 'P_cluster_pct': 0.5909090909090909, 'TP_domains': 24, 'P_clusters': 13}
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 77, 'N_clusters': 74403, 'recall': 0.04076008123005512, 'precision': 0.8794992175273866, 'P_cluster_pct': 0.004082561439203298, 'TP_domains': 562, 'P_clusters': 305}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 8, 'N_clusters': 7103, 'recall': 0.006962576153176675, 'precision': 0.9230769230769231, 'P_cluster_pct': 0.007406372275013974, 'TP_domains': 96, 'P_clusters': 53}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 162, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.23222748815165878, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 0, 'recall': 0.0015955903684363214, 'precision': 1.0, 'P_cluster_pct': 1.0, 'TP_domains': 22, 'P_clusters': 4}
+computing MinHashes
+querying MinHashes
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 45, 'N_clusters': 17733, 'recall': 0.03292718305773136, 'precision': 0.9098196392785571, 'P_cluster_pct': 0.011428252871000112, 'TP_domains': 454, 'P_clusters': 205}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 1210, 'recall': 0.004351610095735422, 'precision': 1.0, 'P_cluster_pct': 0.03968253968253968, 'TP_domains': 60, 'P_clusters': 50}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 20, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.7101449275362319, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 7), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 100)]
+None
+computing 5-grams
+computing MinHashes
+querying MinHashes
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 201, 'N_clusters': 197602, 'recall': 0.08376849434290688, 'precision': 0.8517699115044248, 'P_cluster_pct': 0.002951757683400021, 'TP_domains': 1155, 'P_clusters': 585}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 34, 'N_clusters': 22693, 'recall': 0.01820423556715985, 'precision': 0.8807017543859649, 'P_cluster_pct': 0.005565293602103418, 'TP_domains': 251, 'P_clusters': 127}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 8, 'N_clusters': 463, 'recall': 0.005439512619669277, 'precision': 0.9036144578313253, 'P_cluster_pct': 0.09746588693957114, 'TP_domains': 75, 'P_clusters': 50}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 10000)]
+None
+computing MinHashes
+querying MinHashes
+300000  
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 144, 'N_clusters': 89641, 'recall': 0.07608064984044097, 'precision': 0.8792958927074602, 'P_cluster_pct': 0.00670389823371673, 'TP_domains': 1049, 'P_clusters': 605}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 15, 'N_clusters': 5086, 'recall': 0.010226283724978242, 'precision': 0.9038461538461539, 'P_cluster_pct': 0.014722975590856257, 'TP_domains': 141, 'P_clusters': 76}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 116, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.296969696969697, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 18, 'N_clusters': 8740, 'recall': 0.018784450246591238, 'precision': 0.9350180505415162, 'P_cluster_pct': 0.013877919440370078, 'TP_domains': 259, 'P_clusters': 123}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 658, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.06930693069306931, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 13, 'recall': 0.0011604293588627793, 'precision': 1.0, 'P_cluster_pct': 0.1875, 'TP_domains': 16, 'P_clusters': 3}
+[('n', 5), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 100)]
+None
+computing 4-grams
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 484, 'N_clusters': 239387, 'recall': 0.12278793153466783, 'precision': 0.7776757005052825, 'P_cluster_pct': 0.003932060649434948, 'TP_domains': 1693, 'P_clusters': 945}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 37, 'N_clusters': 20352, 'recall': 0.02139541630403249, 'precision': 0.8885542168674698, 'P_cluster_pct': 0.007461594732991953, 'TP_domains': 295, 'P_clusters': 153}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 431, 'recall': 0.003408761241659414, 'precision': 1.0, 'P_cluster_pct': 0.08102345415778252, 'TP_domains': 47, 'P_clusters': 38}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 10000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 182, 'N_clusters': 92681, 'recall': 0.07760371337394836, 'precision': 0.854632587859425, 'P_cluster_pct': 0.00701765663838176, 'TP_domains': 1070, 'P_clusters': 655}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 12, 'N_clusters': 3484, 'recall': 0.012692196112561649, 'precision': 0.9358288770053476, 'P_cluster_pct': 0.02463605823068309, 'TP_domains': 175, 'P_clusters': 88}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 139, 'recall': 0.0034812880765883376, 'precision': 1.0, 'P_cluster_pct': 0.25668449197860965, 'TP_domains': 48, 'P_clusters': 48}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 10, 'N_clusters': 3791, 'recall': 0.010081230055120394, 'precision': 0.9328859060402684, 'P_cluster_pct': 0.019906928645294725, 'TP_domains': 139, 'P_clusters': 77}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 201, 'recall': 0.002683492892370177, 'precision': 1.0, 'P_cluster_pct': 0.11061946902654868, 'TP_domains': 37, 'P_clusters': 25}
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 100)]
+None
+[('n', 4), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 100)]
+None
+computing 3-grams
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 1032, 'N_clusters': 330298, 'recall': 0.16071946620249491, 'precision': 0.6822660098522167, 'P_cluster_pct': 0.0033132566476360608, 'TP_domains': 2216, 'P_clusters': 1098}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 48, 'N_clusters': 24699, 'recall': 0.03379750507687845, 'precision': 0.9066147859922179, 'P_cluster_pct': 0.008231609380019274, 'TP_domains': 466, 'P_clusters': 205}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 10000)]
+{'FP_domains': 0, 'N_clusters': 654, 'recall': 0.0035538149115172616, 'precision': 1.0, 'P_cluster_pct': 0.06970128022759602, 'TP_domains': 49, 'P_clusters': 49}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 10000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 42, 'N_clusters': 28171, 'recall': 0.037931534667827095, 'precision': 0.9256637168141593, 'P_cluster_pct': 0.009110094970102005, 'TP_domains': 523, 'P_clusters': 259}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 1000)]
+{'FP_domains': 0, 'N_clusters': 359, 'recall': 0.0034812880765883376, 'precision': 1.0, 'P_cluster_pct': 0.10918114143920596, 'TP_domains': 48, 'P_clusters': 44}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 1000)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 1000)]
+None
+computing MinHashes
+querying MinHashes
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.3), ('num_perms', 64), ('max_items', 100)]
+{'FP_domains': 0, 'N_clusters': 367, 'recall': 0.0016681172033652452, 'precision': 1.0, 'P_cluster_pct': 0.05897435897435897, 'TP_domains': 23, 'P_clusters': 23}
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.5), ('num_perms', 64), ('max_items', 100)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.7), ('num_perms', 64), ('max_items', 100)]
+None
+[('n', 3), ('min_cluster_size', 10), ('bad_cluster_cutoff', 0.75), ('LSH threshold', 0.9), ('num_perms', 64), ('max_items', 100)]
+None
+>>> 

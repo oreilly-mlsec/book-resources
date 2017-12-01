@@ -1,0 +1,181 @@
+(precision, ---, recall)
+
+[(n, 3), (min_size, 5), (bad_cluster_cutoff, 0.5)]
+(0.58496, 0.09081, 0.09986)
+[(n, 3), (min_size, 5), (bad_cluster_cutoff, 0.75)]
+(0.79262, 0.03608, 0.03742)
+[(n, 3), (min_size, 5), (bad_cluster_cutoff, 0.9)]
+(0.98507, 0.01416, 0.01436)
+[(n, 3), (min_size, 5), (bad_cluster_cutoff, 0.95)]
+(0.98989, 0.01401, 0.01421)
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.5)]
+(0.59276, 0.07681, 0.08318)
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.78558, 0.03140, 0.03241)
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.98245, 0.01204, 0.01218)
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.95)]
+(0.9875, 0.01133, 0.01145)
+[(n, 3), (min_size, 20), (bad_cluster_cutoff, 0.5)]
+(0.59515, 0.06964, 0.07484)
+[(n, 3), (min_size, 20), (bad_cluster_cutoff, 0.75)]
+(0.78149, 0.02799, 0.02879)
+[(n, 3), (min_size, 20), (bad_cluster_cutoff, 0.9)]
+(0.9875, 0.01133, 0.01145)
+[(n, 3), (min_size, 20), (bad_cluster_cutoff, 0.95)]
+(0.9875, 0.01133, 0.01145)
+[(n, 3), (min_size, 50), (bad_cluster_cutoff, 0.5)]
+(0.56710, 0.04171, 0.04351)
+[(n, 3), (min_size, 50), (bad_cluster_cutoff, 0.75)]
+(0.76086, 0.01746, 0.01776)
+[(n, 3), (min_size, 50), (bad_cluster_cutoff, 0.9)]
+(1.0, 0.00770, 0.00776)
+[(n, 3), (min_size, 50), (bad_cluster_cutoff, 0.95)]
+(1.0, 0.00770, 0.00776)
+[(n, 4), (min_size, 5), (bad_cluster_cutoff, 0.5)]
+(0.49416, 0.20627, 0.25797)
+[(n, 4), (min_size, 5), (bad_cluster_cutoff, 0.75)]
+(0.84641, 0.11347, 0.12750)
+[(n, 4), (min_size, 5), (bad_cluster_cutoff, 0.9)]
+(0.93977, 0.07934, 0.08601)
+[(n, 4), (min_size, 5), (bad_cluster_cutoff, 0.95)]
+(0.99223, 0.06102, 0.06491)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.5)]
+(0.49636, 0.18358, 0.22294)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.85591, 0.09798, 0.10813)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.93272, 0.06939, 0.07441)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.95)]
+(0.99026, 0.04917, 0.05163)
+[(n, 4), (min_size, 20), (bad_cluster_cutoff, 0.5)]
+(0.5, 0.16320, 0.19292)
+[(n, 4), (min_size, 20), (bad_cluster_cutoff, 0.75)]
+(0.85275, 0.08012, 0.08652)
+[(n, 4), (min_size, 20), (bad_cluster_cutoff, 0.9)]
+(0.92419, 0.05698, 0.06012)
+[(n, 4), (min_size, 20), (bad_cluster_cutoff, 0.95)]
+(0.98756, 0.03892, 0.04032)
+[(n, 4), (min_size, 50), (bad_cluster_cutoff, 0.5)]
+(0.51042, 0.12915, 0.14556)
+[(n, 4), (min_size, 50), (bad_cluster_cutoff, 0.75)]
+(0.86089, 0.05489, 0.05700)
+[(n, 4), (min_size, 50), (bad_cluster_cutoff, 0.9)]
+(0.92496, 0.05018, 0.05185)
+[(n, 4), (min_size, 50), (bad_cluster_cutoff, 0.95)]
+(0.98651, 0.03645, 0.03713)
+[(n, 5), (min_size, 5), (bad_cluster_cutoff, 0.5)]
+(0.48886, 0.25232, 0.31694)
+[(n, 5), (min_size, 5), (bad_cluster_cutoff, 0.75)]
+(0.77555, 0.17197, 0.19698)
+[(n, 5), (min_size, 5), (bad_cluster_cutoff, 0.9)]
+(0.93555, 0.12075, 0.13054)
+[(n, 5), (min_size, 5), (bad_cluster_cutoff, 0.95)]
+(0.98548, 0.09791, 0.10342)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.5)]
+(0.50824, 0.22147, 0.26378)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.77410, 0.14292, 0.15607)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.92255, 0.09583, 0.09936)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.95)]
+(0.97835, 0.06825, 0.06882)
+[(n, 5), (min_size, 20), (bad_cluster_cutoff, 0.5)]
+(0.52667, 0.20034, 0.22700)
+[(n, 5), (min_size, 20), (bad_cluster_cutoff, 0.75)]
+(0.78720, 0.12322, 0.12851)
+[(n, 5), (min_size, 20), (bad_cluster_cutoff, 0.9)]
+(0.91637, 0.07621, 0.07550)
+[(n, 5), (min_size, 20), (bad_cluster_cutoff, 0.95)]
+(0.97234, 0.05007, 0.04844)
+[(n, 5), (min_size, 50), (bad_cluster_cutoff, 0.5)]
+(0.55622, 0.17664, 0.18617)
+[(n, 5), (min_size, 50), (bad_cluster_cutoff, 0.75)]
+(0.81966, 0.09108, 0.08768)
+[(n, 5), (min_size, 50), (bad_cluster_cutoff, 0.9)]
+(0.92643, 0.06245, 0.05845)
+[(n, 5), (min_size, 50), (bad_cluster_cutoff, 0.95)]
+(0.97518, 0.03123, 0.02850)
+[(n, 6), (min_size, 5), (bad_cluster_cutoff, 0.75)]
+(0.82839, 0.18613, 0.19886)
+[(n, 6), (min_size, 5), (bad_cluster_cutoff, 0.9)]
+(0.94656, 0.14133, 0.14389)
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.84109, 0.15376, 0.15201)
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.93391, 0.11457, 0.10864)
+[(n, 6), (min_size, 20), (bad_cluster_cutoff, 0.75)]
+(0.85968, 0.12675, 0.11553)
+[(n, 6), (min_size, 20), (bad_cluster_cutoff, 0.9)]
+(0.93450, 0.09190, 0.08072)
+[(n, 7), (min_size, 5), (bad_cluster_cutoff, 0.75)]
+(0.85538, 0.20307, 0.18102)
+[(n, 7), (min_size, 5), (bad_cluster_cutoff, 0.9)]
+(0.95571, 0.15624, 0.13460)
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.87276, 0.16730, 0.13083)
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.94590, 0.13238, 0.10146)
+[(n, 7), (min_size, 20), (bad_cluster_cutoff, 0.75)]
+(0.87967, 0.13755, 0.09384)
+[(n, 7), (min_size, 20), (bad_cluster_cutoff, 0.9)]
+(0.94578, 0.10511, 0.07085)
+
+
+#####
+
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.78558, 0.03140, 0.03241)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.85591, 0.09798, 0.10813)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.77410, 0.14292, 0.15607)
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.84109, 0.15376, 0.15201)
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.87276, 0.16730, 0.13083)
+[(n, 8), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+(0.89760, 0.19189, 0.10617)
+
+######
+
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.98245, 0.01204, 0.01218)
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.93272, 0.06939, 0.07441)
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.92255, 0.09583, 0.09936)
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.93391, 0.11457, 0.10864)
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.94590, 0.13238, 0.10146)
+[(n, 8), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+(0.95812, 0.15355, 0.08297)
+
+#######
+
+
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 122, N_clusters: 16457, recall: 0.03307, precision: 0.78892, P_cluster_pct: 0.00109, TP_domains: 456, P_clusters: 18}
+[(n, 3), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 3, N_clusters: 16469, recall: 0.01283, precision: 0.98333, P_cluster_pct: 0.00036, TP_domains: 177, P_clusters: 6}
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 256, N_clusters: 59954, recall: 0.11009, precision: 0.85569, P_cluster_pct: 0.00158, TP_domains: 1518, P_clusters: 95}
+[(n, 4), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 76, N_clusters: 59997, recall: 0.07579, precision: 0.93220, P_cluster_pct: 0.00086, TP_domains: 1045, P_clusters: 52}
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 648, N_clusters: 72343, recall: 0.16246, precision: 0.77562, P_cluster_pct: 0.00352, TP_domains: 2240, P_clusters: 256}
+[(n, 5), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 124, N_clusters: 72456, recall: 0.10552, precision: 0.92146, P_cluster_pct: 0.00196, TP_domains: 1455, P_clusters: 143}
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 421, N_clusters: 52752, recall: 0.15781, precision: 0.83788, P_cluster_pct: 0.00608, TP_domains: 2176, P_clusters: 323}
+[(n, 6), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 112, N_clusters: 52861, recall: 0.11212, precision: 0.93244, P_cluster_pct: 0.00403, TP_domains: 1546, P_clusters: 214}
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 291, N_clusters: 39390, recall: 0.13736, precision: 0.86681, P_cluster_pct: 0.00810, TP_domains: 1894, P_clusters: 322}
+[(n, 7), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 86, N_clusters: 39485, recall: 0.10487, precision: 0.94386, P_cluster_pct: 0.00571, TP_domains: 1446, P_clusters: 227}
+[(n, 8), (min_size, 10), (bad_cluster_cutoff, 0.75)]
+{FP_domains: 178, N_clusters: 28557, recall: 0.11053, precision: 0.89541, P_cluster_pct: 0.00950, TP_domains: 1524, P_clusters: 274}
+[(n, 8), (min_size, 10), (bad_cluster_cutoff, 0.9)]
+{FP_domains: 54, N_clusters: 28626, recall: 0.08732, precision: 0.95707, P_cluster_pct: 0.00711, TP_domains: 1204, P_clusters: 205}
