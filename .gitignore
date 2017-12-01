@@ -1,3 +1,7 @@
+# chapter1 TREC07 corpus - not to be included in repo
+chapter1/datasets/trec07p.tgz
+chapter1/datasets/trec07p
+
 # macOS attribute file
 .DS_Store
 
