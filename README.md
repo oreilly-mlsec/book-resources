@@ -5,7 +5,7 @@ by Clarence Chio and‎ David Freeman (Authors), published by O'Reilly Media
 
 This repository contains accompanying resources, exercises, datasets, and sample code for the Machine Learning and Security book (to be) released in Feb 2018.
 
-![Machine Learning and Security](book-resources/mlsec-cover-oreilly.jpg?raw=true "mlsec-cover-oreilly")
+![](mlsec-cover-oreilly.jpg?raw=true "mlsec-cover-oreilly")
 
 ## Dependencies
 
