@@ -1,11 +1,11 @@
 # Machine Learning and Security: Protecting Systems with Data and Algorithms
 by Clarence Chio and‎ David Freeman (Authors), published by O'Reilly Media
 
-[Purchase on Amazon](https://www.amazon.com/Machine-Learning-Security-Protecting-Algorithms/dp/1491979909) | [Read on O'Reilly Safari](http://shop.oreilly.com/product/0636920065555.do)
+[Visit Website](mlsec.net) | [Purchase on Amazon](https://amzn.to/2FmVDYQ) | [Read on O'Reilly Safari](http://shop.oreilly.com/product/0636920065555.do)
 
-This repository contains accompanying resources, exercises, datasets, and sample code for the Machine Learning and Security book (to be) released in Feb 2018.
+This repository contains accompanying resources, exercises, datasets, and sample code for the Machine Learning and Security book released in Feb 2018.
 
-![](mlsec-cover-oreilly.jpg?raw=true "mlsec-cover-oreilly")
+<img src="mlsec-cover-oreilly.jpg" width="50%" height="50%">
 
 ## Dependencies
 
